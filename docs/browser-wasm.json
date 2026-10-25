@@ -1,0 +1,459 @@
+{
+  "date": "2026-10-25T15:14:22.938Z",
+  "browser": "155.0.8059.86",
+  "subpath": "http://127.0.0.1:51671/samuel-live/",
+  "initial": {
+    "liveMessages": 0,
+    "backend": {
+      "requested": "webgpu",
+      "actual": "wasm",
+      "fallbackReason": "验证指定 WASM"
+    },
+    "loadMs": 297.7000000476837,
+    "displayLatencyP95": 0,
+    "drawAgeP95": 0,
+    "drawAgeMax": 0,
+    "displayCount": 0,
+    "drawCount": 0,
+    "state": "ready",
+    "captureTracks": []
+  },
+  "numerical": {
+    "backend": {
+      "requested": "webgpu",
+      "actual": "wasm",
+      "fallbackReason": "验证指定 WASM"
+    },
+    "maxAbsLogitError": 0.0002899169921875,
+    "meanAbsLogitError": 0.00001242180956551686,
+    "bucketMismatches": 0,
+    "bucketCount": 1239,
+    "minMargin": 0.000484466552734375,
+    "streamingMaxAbsLogitError": 0.000152587890625,
+    "streamingBucketMismatches": 0,
+    "fixtureFrames": 177,
+    "durationMs": 1681.9000000953674,
+    "toleranceFailures": 0,
+    "acceptedToleranceFailures": 0,
+    "tolerance": {
+      "atol": 0.0001,
+      "rtol": 0.0001
+    },
+    "passed": true,
+    "cases": {
+      "speech": {
+        "torchBrowser": {
+          "acceptedToleranceFailures": 0,
+          "outliers": [],
+          "p99AbsLogitError": 0.00009918212890625,
+          "maxAbsLogitError": 0.0002899169921875,
+          "meanAbsLogitError": 0.00002004131560430064,
+          "bucketMismatches": 0,
+          "toleranceFailures": 0,
+          "minMargin": 0.000545501708984375,
+          "physicalMaxDifference": {
+            "voiceness": 0,
+            "intensity": 0,
+            "tongueIndex": 0,
+            "tongueDiameter": 0,
+            "constrictionIndex": 0,
+            "constrictionDiameter": 0,
+            "lipDiameter": 0
+          }
+        },
+        "stream": {
+          "4": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.0000457763671875,
+            "maxAbsLogitError": 0.000152587890625,
+            "meanAbsLogitError": 0.000008072431886657363,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00055694580078125,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "8": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.000030517578125,
+            "maxAbsLogitError": 0.000091552734375,
+            "meanAbsLogitError": 0.000006103107339835593,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00055694580078125,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "16": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.000030517578125,
+            "maxAbsLogitError": 0.000091552734375,
+            "meanAbsLogitError": 0.000006102846791258171,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00055694580078125,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          }
+        }
+      },
+      "short": {
+        "torchBrowser": {
+          "acceptedToleranceFailures": 0,
+          "outliers": [],
+          "p99AbsLogitError": 0.000034332275390625,
+          "maxAbsLogitError": 0.000037670135498046875,
+          "meanAbsLogitError": 0.000008281453379562923,
+          "bucketMismatches": 0,
+          "toleranceFailures": 0,
+          "minMargin": 0.029697418212890625,
+          "physicalMaxDifference": {
+            "voiceness": 0,
+            "intensity": 0,
+            "tongueIndex": 0,
+            "tongueDiameter": 0,
+            "constrictionIndex": 0,
+            "constrictionDiameter": 0,
+            "lipDiameter": 0
+          }
+        },
+        "stream": {
+          "4": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.029712677001953125,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "8": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.029712677001953125,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "16": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.029712677001953125,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          }
+        }
+      },
+      "silence": {
+        "torchBrowser": {
+          "acceptedToleranceFailures": 0,
+          "outliers": [],
+          "p99AbsLogitError": 0.00006103515625,
+          "maxAbsLogitError": 0.0001049041748046875,
+          "meanAbsLogitError": 0.000009329937350389266,
+          "bucketMismatches": 0,
+          "toleranceFailures": 0,
+          "minMargin": 0.028516769409179688,
+          "physicalMaxDifference": {
+            "voiceness": 0,
+            "intensity": 0,
+            "tongueIndex": 0,
+            "tongueDiameter": 0,
+            "constrictionIndex": 0,
+            "constrictionDiameter": 0,
+            "lipDiameter": 0
+          }
+        },
+        "stream": {
+          "4": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.0000209808349609375,
+            "maxAbsLogitError": 0.000034332275390625,
+            "meanAbsLogitError": 0.000004102080498659421,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.028524398803710938,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "8": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.0000209808349609375,
+            "maxAbsLogitError": 0.000034332275390625,
+            "meanAbsLogitError": 0.000004172691011003085,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.028524398803710938,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "16": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.0000209808349609375,
+            "maxAbsLogitError": 0.000034332275390625,
+            "meanAbsLogitError": 0.000004048884240171266,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.028524398803710938,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          }
+        }
+      },
+      "random": {
+        "torchBrowser": {
+          "acceptedToleranceFailures": 0,
+          "outliers": [],
+          "p99AbsLogitError": 0.00006103515625,
+          "maxAbsLogitError": 0.00017547607421875,
+          "meanAbsLogitError": 0.00001203453192781461,
+          "bucketMismatches": 0,
+          "toleranceFailures": 0,
+          "minMargin": 0.000484466552734375,
+          "physicalMaxDifference": {
+            "voiceness": 0,
+            "intensity": 0,
+            "tongueIndex": 0,
+            "tongueDiameter": 0,
+            "constrictionIndex": 0,
+            "constrictionDiameter": 0,
+            "lipDiameter": 0
+          }
+        },
+        "stream": {
+          "4": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.00002384185791015625,
+            "maxAbsLogitError": 0.00006103515625,
+            "meanAbsLogitError": 0.000005360297102453117,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00048065185546875,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "8": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.00002288818359375,
+            "maxAbsLogitError": 0.00006103515625,
+            "meanAbsLogitError": 0.000004720450483990791,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00048065185546875,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "16": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.00002288818359375,
+            "maxAbsLogitError": 0.00006103515625,
+            "meanAbsLogitError": 0.000004773555127413649,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00048065185546875,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "errors": [],
+  "requests": [
+    {
+      "url": "/samuel-live/",
+      "status": 200,
+      "mime": "text/html"
+    },
+    {
+      "url": "/samuel-live/assets/index-CW-RvNso.css",
+      "status": 200,
+      "mime": "text/css"
+    },
+    {
+      "url": "/samuel-live/assets/index-B1KXuo-l.js",
+      "status": 200,
+      "mime": "application/javascript"
+    },
+    {
+      "url": "/samuel-live/pink-trombone/pink-trombone.min.js",
+      "status": 200,
+      "mime": "application/javascript"
+    },
+    {
+      "url": "/samuel-live/assets/inference.worker-C0eOWBOJ.js",
+      "status": 200,
+      "mime": "application/javascript"
+    },
+    {
+      "url": "/samuel-live/models/samuel-manifest.json",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "url": "/samuel-live/models/samuel-controller-fp32.onnx",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/ort/ort-wasm-simd-threaded.asyncify.mjs",
+      "status": 200,
+      "mime": "application/javascript"
+    },
+    {
+      "url": "/samuel-live/ort/ort-wasm-simd-threaded.asyncify.wasm",
+      "status": 200,
+      "mime": "application/wasm"
+    },
+    {
+      "url": "/samuel-live/fixtures/cases.json",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "url": "/samuel-live/fixtures/speech.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/speech.logits.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/short.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/short.logits.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/silence.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/silence.logits.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/random.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/random.logits.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    }
+  ]
+}

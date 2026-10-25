@@ -1,0 +1,18 @@
+node_modules/
+dist/
+tools/.venv/
+tools/cache/
+__pycache__/
+.pytest_cache/
+.pnpm-store/
+.DS_Store
+
+# Large generated binaries are rebuilt from pinned inputs by CI.
+public/models/*.onnx
+docs/*.wav
+
+public/ort/
+public/pink-trombone/
+public/tflite/
+public/ddsp/
+vendor/Pink-Trombone/*.min.js

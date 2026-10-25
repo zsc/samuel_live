@@ -1,0 +1,139 @@
+error: [0;93m2026-10-25 23:14:23.386199 [W:onnxruntime:Default, cpuid_info.cc:91 LogEarlyWarning] Unknown CPU vendor. cpuinfo_vendor value: 0[m
+error: 2026-10-25 23:14:23.386899 [I:onnxruntime:Default, device_discovery_common.cc:34 operator()] Discovered OrtHardwareDevice {vendor_id:0x0, device_id:0x0, vendor:unknown, type:0, metadata: []}
+error: 2026-10-25 23:14:23.392599 [I:onnxruntime:, inference_session.cc:606 TraceSessionOptions] Session Options {  execution_mode:0 execution_order:DEFAULT enable_profiling:0 optimized_model_filepath:"" enable_mem_pattern:1 enable_mem_reuse:1 enable_cpu_mem_arena:1 profile_file_prefix: session_logid: session_log_severity_level:0 session_log_verbosity_level:1 max_num_graph_transformation_steps:10 graph_optimization_level:4 intra_op_param:OrtThreadPoolParams { thread_pool_size: 0 auto_set_affinity: 0 allow_spinning: 1 dynamic_block_base_: 0 stack_size: 0 affinity_str:  set_denormal_as_zero: 0 } inter_op_param:OrtThreadPoolParams { thread_pool_size: 0 auto_set_affinity: 0 allow_spinning: 1 dynamic_block_base_: 0 stack_size: 0 affinity_str:  set_denormal_as_zero: 0 } use_per_session_threads:0 thread_pool_allow_spinning:1 use_deterministic_compute:0 ep_selection_policy:0 config_options: {   session.use_ort_model_bytes_directly: 1 } }
+error: 2026-10-25 23:14:23.392999 [I:onnxruntime:, inference_session.cc:414 operator()] Flush-to-zero and denormal-as-zero are off
+error: 2026-10-25 23:14:23.393099 [I:onnxruntime:, inference_session.cc:507 ConstructorCommon] Using global/env threadpools since use_per_session_threads_ is false
+error: 2026-10-25 23:14:23.414399 [I:onnxruntime:, inference_session.cc:2042 Initialize] Initializing session.
+error: 2026-10-25 23:14:23.414499 [I:onnxruntime:, inference_session.cc:2080 Initialize] Adding default CPU execution provider.
+error: 2026-10-25 23:14:23.443199 [I:onnxruntime:, graph_partitioner.cc:1209 InlineFunctionsAOT] This model does not have any local functions defined. AOT Inlining is not performed
+error: 2026-10-25 23:14:23.444099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer EnsureUniqueDQForNodeUnit modified: 0 with status: OK
+error: 2026-10-25 23:14:23.445599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer Level1_RuleBasedTransformer modified: 1 with status: OK
+error: 2026-10-25 23:14:23.447099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer DoubleQDQPairsRemover modified: 0 with status: OK
+error: 2026-10-25 23:14:23.448399 [I:onnxruntime:, constant_sharing.cc:248 ApplyImpl] Total shared scalar initializer count: 138
+error: 2026-10-25 23:14:23.448499 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer ConstantSharing modified: 1 with status: OK
+error: 2026-10-25 23:14:23.450599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer CommonSubexpressionElimination modified: 1 with status: OK
+error: 2026-10-25 23:14:23.461399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer ConstantFolding modified: 1 with status: OK
+error: 2026-10-25 23:14:23.461999 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.16/block/block.1/Transpose_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462099 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.16/block/block.1/Slice_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462199 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.16/block/block.1/Reshape_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462199 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.16/block/block.1/Concat_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462299 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.17/block/block.1/Transpose_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462399 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.17/block/block.1/Slice_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462399 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.17/block/block.1/Reshape_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462499 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.17/block/block.1/Concat_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462499 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.20/Transpose_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462499 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.20/Slice_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462699 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.20/Concat_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462899 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.22/Transpose_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462899 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.22/Slice_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.462999 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.22/Reshape_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.463199 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.22/ConstantOfShape_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.463299 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.22/Constant_5_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.463399 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.22/Constant_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.463499 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.13/block/block.1/Constant_2_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.463599 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.17/block/block.1/Constant_1_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.463599 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.20/Constant_1_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.463799 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.22/Constant_1_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.463899 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.1/block/block.1/Constant_1_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.463899 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.20/Reshape_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.463999 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.22/Concat_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.464399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulAddFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.465399 [I:onnxruntime:, reshape_fusion.cc:49 ApplyImpl] Fused reshape node: logits
+error: 2026-10-25 23:14:23.465599 [I:onnxruntime:, reshape_fusion.cc:57 ApplyImpl] Total fused reshape node count: 1
+error: 2026-10-25 23:14:23.465599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer ReshapeFusion modified: 1 with status: OK
+error: 2026-10-25 23:14:23.466099 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/Constant_3_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.466399 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/Constant_1_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.466399 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.22/Constant_7_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.466399 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/encoder/model/model.2/block/block.1/Constant_3_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.466599 [I:onnxruntime:, graph.cc:4862 CleanUnusedInitializersAndNodeArgs] Removing initializer '/Constant_output_0'. It is no longer used by any node.
+error: 2026-10-25 23:14:23.466699 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer FreeDimensionOverrideTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.466999 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GeluFusionL1 modified: 0 with status: OK
+error: 2026-10-25 23:14:23.467399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer LayerNormFusionL1 modified: 0 with status: OK
+error: 2026-10-25 23:14:23.467699 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer QDQPropagationTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.468099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer WeightBiasQuantization modified: 0 with status: OK
+error: 2026-10-25 23:14:23.468199 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer EnsureUniqueDQForNodeUnit modified: 0 with status: OK
+error: 2026-10-25 23:14:23.468299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer RocmBlasAltImpl modified: 0 with status: OK
+error: 2026-10-25 23:14:23.469799 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer TransposeOptimizer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.469899 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer Level1_RuleBasedTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.469999 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer DoubleQDQPairsRemover modified: 0 with status: OK
+error: 2026-10-25 23:14:23.470299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer CommonSubexpressionElimination modified: 0 with status: OK
+error: 2026-10-25 23:14:23.470399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer ConstantFolding modified: 0 with status: OK
+error: 2026-10-25 23:14:23.470599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulAddFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.470699 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer ReshapeFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.470899 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer FreeDimensionOverrideTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.470999 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GeluFusionL1 modified: 0 with status: OK
+error: 2026-10-25 23:14:23.471099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer LayerNormFusionL1 modified: 0 with status: OK
+error: 2026-10-25 23:14:23.471199 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer QDQPropagationTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.471399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer WeightBiasQuantization modified: 0 with status: OK
+error: 2026-10-25 23:14:23.471599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer EnsureUniqueDQForNodeUnit modified: 0 with status: OK
+error: 2026-10-25 23:14:23.471799 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer RocmBlasAltImpl modified: 0 with status: OK
+error: 2026-10-25 23:14:23.478099 [I:onnxruntime:, inference_session.cc:1465 TransformGraph] Running graph optimizations in loop 1 time/s (Graph Optimizations Loop Level : 1)
+error: 2026-10-25 23:14:23.478299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer Level2_RuleBasedTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.478399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer TransposeOptimizer_CPUExecutionProvider modified: 0 with status: OK
+error: 2026-10-25 23:14:23.478599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer QDQS8ToU8Transformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.479499 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer QDQSelectorActionTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.479699 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GemmActivationFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.479999 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulIntegerToFloatFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.480299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer DynamicQuantizeMatMulFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.480399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer ConvActivationFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.480499 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GeluFusionL2 modified: 0 with status: OK
+error: 2026-10-25 23:14:23.480499 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer LayerNormFusionL2 modified: 0 with status: OK
+error: 2026-10-25 23:14:23.480999 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer SimplifiedLayerNormFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.484099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer AttentionFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.484799 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer EmbedLayerNormFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.485599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GatherSliceToSplitFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.485899 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GatherToSliceFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.486299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatmulTransposeFusion modified: 1 with status: OK
+error: 2026-10-25 23:14:23.487199 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer BiasGeluFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.487999 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GroupQueryAttentionFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.487999 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulAddFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.488299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer SkipLayerNormFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.488599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer FastGeluFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.488899 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer QuickGeluFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.489099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer BiasSoftmaxFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.489699 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer BiasDropoutFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.490399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulScaleFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.490599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulActivationFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.490799 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulNBitsFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer QDQFinalCleanupTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer Level2_RuleBasedTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491199 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer QDQS8ToU8Transformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer QDQSelectorActionTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GemmActivationFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulIntegerToFloatFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491499 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer DynamicQuantizeMatMulFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491499 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer ConvActivationFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GeluFusionL2 modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer LayerNormFusionL2 modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491799 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer SimplifiedLayerNormFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491999 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer AttentionFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.491999 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer EmbedLayerNormFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.492099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GatherSliceToSplitFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.492299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GatherToSliceFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.492499 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatmulTransposeFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.492599 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer BiasGeluFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.492799 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer GroupQueryAttentionFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.492799 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulAddFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.492999 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer SkipLayerNormFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.493099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer FastGeluFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.493099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer QuickGeluFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.493099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer BiasSoftmaxFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.493199 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer BiasDropoutFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.493199 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulScaleFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.493199 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulActivationFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.493299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MatMulNBitsFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.493299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer QDQFinalCleanupTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.493799 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer NhwcTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.494099 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer ConvAddActivationFusion modified: 0 with status: OK
+error: 2026-10-25 23:14:23.494699 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer RemoveDuplicateCastTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.494699 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer CastFloat16Transformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.495399 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer FuseFp16InitializerToFp32NodeTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.496299 [I:onnxruntime:, graph_transformer.cc:15 Apply] GraphTransformer MemcpyTransformer modified: 0 with status: OK
+error: 2026-10-25 23:14:23.496799 [V:onnxruntime:, session_state.cc:1287 VerifyEachNodeIsAssignedToAnEp] Node placements
+error: 2026-10-25 23:14:23.496799 [V:onnxruntime:, session_state.cc:1290 VerifyEachNodeIsAssignedToAnEp]  All nodes placed on [CPUExecutionProvider]. Number of nodes: 92
+error: 2026-10-25 23:14:23.502799 [V:onnxruntime:, session_state.cc:175 CreateGraphInfo] SaveMLValueNameIndexMapping
+error: 2026-10-25 23:14:23.502999 [V:onnxruntime:, session_state.cc:221 CreateGraphInfo] Done saving OrtValue mappings.
+error: 2026-10-25 23:14:23.503299 [I:onnxruntime:, allocation_planner.cc:2659 CreateGraphPartitioner] Use DeviceBasedPartition as default
+error: 2026-10-25 23:14:23.508399 [I:onnxruntime:, session_state_utils.cc:243 SaveInitializedTensors] Saving initialized tensors.
+error: 2026-10-25 23:14:23.509199 [I:onnxruntime:, session_state_utils.cc:438 SaveInitializedTensors] Done saving initialized tensors
+error: 2026-10-25 23:14:23.512499 [I:onnxruntime:, inference_session.cc:2532 Initialize] Session successfully initialized.

@@ -1,0 +1,29 @@
+{
+  "name": "samuel-live-webgpu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "assets": "node scripts/prepare-assets.mjs",
+    "predev": "pnpm run assets",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "pnpm run verify:assets && pnpm run assets",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:python": "PYTHONPATH=vendor/samuel/src uv run --project tools --frozen python -m pytest vendor/samuel/tests/test_causality.py vendor/samuel/tests/test_encoder.py -q",
+    "test:browser": "node scripts/validate-browser.mjs",
+    "verify:assets": "node scripts/verify-assets.mjs",
+    "model:export": "uv run --project tools --frozen python tools/export_model.py"
+  },
+  "dependencies": {
+    "onnxruntime-web": "1.23.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "typescript": "5.9.3",
+    "vite": "7.1.7",
+    "vitest": "3.2.4"
+  },
+  "packageManager": "pnpm@10.18.3"
+}

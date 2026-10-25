@@ -1,0 +1,71 @@
+{
+  "model": {
+    "encoder": {
+      "channels": 1,
+      "dimension": 128,
+      "n_filters": 32,
+      "n_residual_layers": 3,
+      "ratios": [
+        8,
+        4,
+        4,
+        4
+      ],
+      "kernel_size": 7,
+      "last_kernel_size": 7,
+      "residual_kernel_size": 3,
+      "dilation_base": 2,
+      "pad_mode": "constant",
+      "compress": 2
+    },
+    "param_spec": {
+      "constrictionDiameter": [
+        -2.0,
+        3.0,
+        1.25
+      ],
+      "constrictionIndex": [
+        22.0,
+        39.0,
+        33.0
+      ],
+      "intensity": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "lipDiameter": [
+        0.0,
+        3.0,
+        1.25
+      ],
+      "tongueDiameter": [
+        1.5,
+        3.5,
+        2.4
+      ],
+      "tongueIndex": [
+        10.0,
+        35.0,
+        20.0
+      ],
+      "voiceness": [
+        0.0,
+        1.0,
+        0.6
+      ]
+    },
+    "frozen_values": {
+      "tractLength": 44.0,
+      "vibratoFrequency": 6.0,
+      "vibratoGain": 0.0,
+      "vibratoWobble": 0.0
+    },
+    "samples_per_frame": 512,
+    "n_buckets": 32,
+    "gumbel_hard": false,
+    "head_type": "gumbel",
+    "lookahead_frames": 0
+  },
+  "targetRms": 0.05
+}

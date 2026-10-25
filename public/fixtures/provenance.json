@@ -1,0 +1,21 @@
+{
+  "source": "https://raw.githubusercontent.com/vvolhejn/samuel/1da0c6fd5563c34bff469fa68601feb91b5cf8c9/examples/this-is-samuel.wav",
+  "originalSha256": "3169a570a80fdc994df550b1dfd9db7cef28154a9339869a6da4e28451def860",
+  "license": "GPL-3.0 (upstream repository)",
+  "files": {
+    "cases.json": "07e2deea2ec8c7c3d8cb39d58f6e8784af9f1e15669e836f591ef1d45f2bc50d",
+    "expected.json": "c196cf56c9006de5dc7721f867ec26df3225b23a44d3addd23f3ad13aa8b149b",
+    "model-input-44k.f32": "abafabf81cd6fc3d23cf6ae8d8da77472080911050ac3220639d478e8a6fd02a",
+    "pitch-reference.json": "d4edf112bd32a50cbebe410920d14d5cbe41ce177110e926f47c7849f56cc6b3",
+    "random.f32": "c39c09258e220a96b991e01a55ebbbc484269218efd03c8f9cc4a1d2e960e6c5",
+    "random.logits.f32": "0885f3d5002b4424f11609037b546d68253d0b745dd2dcfaa65e9d5f377a0b72",
+    "samuel-sample-44k.wav": "5d9e99be6d9a92390201cdd894282c134d7aa89f6c30cb2ec0d01735f31ba039",
+    "samuel-sample-48k.wav": "3169a570a80fdc994df550b1dfd9db7cef28154a9339869a6da4e28451def860",
+    "short.f32": "653b14c1150e8b7d6f49373cd47ad8550ac2cf5c3bbfce07d10c15ef041fbf19",
+    "short.logits.f32": "628a5869314a1ff5feacd558089b63f41378be8986fc5991664ce0f739d0b6eb",
+    "silence.f32": "1c0273095382988333e2f2b5ae487cea460737ed9be65cbad9c5de537f95bf75",
+    "silence.logits.f32": "042b413cf31c8f706539eb6db218808d5e0a568dcddedc53cbf1f701ee41a7a9",
+    "speech.f32": "abafabf81cd6fc3d23cf6ae8d8da77472080911050ac3220639d478e8a6fd02a",
+    "speech.logits.f32": "d637c8e63610ca0effaba8e9b30155b579c0f4639253d573a3a33d89216479d6"
+  }
+}

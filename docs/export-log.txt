@@ -1,0 +1,335 @@
+/Users/zsc/Downloads/samuel_live/tools/export_model.py:109: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter will be the default. To switch now, set dynamo=True in torch.onnx.export. This new exporter supports features like exporting LLMs with DynamicCache. We encourage you to try it and share feedback to help improve the experience. Learn more about the new export logic: https://pytorch.org/docs/stable/onnx_dynamo.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html.
+  torch.onnx.export(
+/Users/zsc/Downloads/samuel_live/vendor/samuel/src/samuel/encoder.py:75: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  assert t > 0 and t % self.stride == 0, "Steps must be a multiple of stride"
+/Users/zsc/Downloads/samuel_live/tools/.venv/lib/python3.12/site-packages/torch/onnx/_internal/jit_utils.py:309: UserWarning: Constant folding - Only steps=1 can be constant folded for opset >= 10 onnx::Slice op. Constant folding not applied. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/jit/passes/onnx/constant_fold.cpp:180.)
+  _C._jit_pass_onnx_node_shape_type_inference(node, params_dict, opset_version)
+/Users/zsc/Downloads/samuel_live/tools/.venv/lib/python3.12/site-packages/torch/onnx/utils.py:684: UserWarning: Constant folding - Only steps=1 can be constant folded for opset >= 10 onnx::Slice op. Constant folding not applied. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/jit/passes/onnx/constant_fold.cpp:180.)
+  _C._jit_pass_onnx_graph_shape_type_inference(
+/Users/zsc/Downloads/samuel_live/tools/.venv/lib/python3.12/site-packages/torch/onnx/utils.py:1154: UserWarning: Constant folding - Only steps=1 can be constant folded for opset >= 10 onnx::Slice op. Constant folding not applied. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/jit/passes/onnx/constant_fold.cpp:180.)
+  _C._jit_pass_onnx_graph_shape_type_inference(
+config.json: verified c902d3a31e16ea08252f617a1a30550d957e597b3e6c1295cef8d4418121cd70
+last.pt: verified eb0d80dbd57a517473dcb8825f314040ef1e21bd8ec13e0af54cd7f6201e5f55
+{
+  "checkpointSha256": "eb0d80dbd57a517473dcb8825f314040ef1e21bd8ec13e0af54cd7f6201e5f55",
+  "configSha256": "c902d3a31e16ea08252f617a1a30550d957e597b3e6c1295cef8d4418121cd70",
+  "onnxSha256": "8c87218eb5bbbb590651386bc33fc05b7c3268660248dc6caa92307f0ccd8ff5",
+  "weightNormModulesFolded": 30,
+  "weightNormMaxDiff": 0.0,
+  "cases": {
+    "speech": {
+      "torchOnnx": {
+        "maxAbsLogitError": 0.0001373291015625,
+        "meanAbsLogitError": 1.076959688361967e-05,
+        "p99AbsLogitError": 5.340576171875e-05,
+        "toleranceFailures": 0,
+        "bucketMismatches": 0,
+        "bucketCount": 840,
+        "minWinningMargin": 0.000545501708984375,
+        "physicalMaxDifference": {
+          "voiceness": 0.0,
+          "intensity": 0.0,
+          "tongueIndex": 0.0,
+          "tongueDiameter": 0.0,
+          "constrictionIndex": 0.0,
+          "constrictionDiameter": 0.0,
+          "lipDiameter": 0.0
+        }
+      },
+      "stream": {
+        "4": {
+          "maxAbsLogitError": 0.0003204345703125,
+          "meanAbsLogitError": 1.896249523269944e-05,
+          "p99AbsLogitError": 0.000102996826171875,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 840,
+          "minWinningMargin": 0.00054931640625,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        },
+        "8": {
+          "maxAbsLogitError": 0.00030517578125,
+          "meanAbsLogitError": 1.8731334421318024e-05,
+          "p99AbsLogitError": 9.918212890625e-05,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 840,
+          "minWinningMargin": 0.00054931640625,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        },
+        "16": {
+          "maxAbsLogitError": 0.0003204345703125,
+          "meanAbsLogitError": 1.8636057575349696e-05,
+          "p99AbsLogitError": 9.918212890625e-05,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 840,
+          "minWinningMargin": 0.00054931640625,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        }
+      }
+    },
+    "short": {
+      "torchOnnx": {
+        "maxAbsLogitError": 3.814697265625e-05,
+        "meanAbsLogitError": 1.1691058716678526e-05,
+        "p99AbsLogitError": 3.1068324460648e-05,
+        "toleranceFailures": 0,
+        "bucketMismatches": 0,
+        "bucketCount": 7,
+        "minWinningMargin": 0.029697418212890625,
+        "physicalMaxDifference": {
+          "voiceness": 0.0,
+          "intensity": 0.0,
+          "tongueIndex": 0.0,
+          "tongueDiameter": 0.0,
+          "constrictionIndex": 0.0,
+          "constrictionDiameter": 0.0,
+          "lipDiameter": 0.0
+        }
+      },
+      "stream": {
+        "4": {
+          "maxAbsLogitError": 0.0,
+          "meanAbsLogitError": 0.0,
+          "p99AbsLogitError": 0.0,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 7,
+          "minWinningMargin": 0.029693603515625,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        },
+        "8": {
+          "maxAbsLogitError": 0.0,
+          "meanAbsLogitError": 0.0,
+          "p99AbsLogitError": 0.0,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 7,
+          "minWinningMargin": 0.029693603515625,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        },
+        "16": {
+          "maxAbsLogitError": 0.0,
+          "meanAbsLogitError": 0.0,
+          "p99AbsLogitError": 0.0,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 7,
+          "minWinningMargin": 0.029693603515625,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        }
+      }
+    },
+    "silence": {
+      "torchOnnx": {
+        "maxAbsLogitError": 8.20159912109375e-05,
+        "meanAbsLogitError": 8.031667675822973e-06,
+        "p99AbsLogitError": 3.814697265625e-05,
+        "toleranceFailures": 0,
+        "bucketMismatches": 0,
+        "bucketCount": 126,
+        "minWinningMargin": 0.028516769409179688,
+        "physicalMaxDifference": {
+          "voiceness": 0.0,
+          "intensity": 0.0,
+          "tongueIndex": 0.0,
+          "tongueDiameter": 0.0,
+          "constrictionIndex": 0.0,
+          "constrictionDiameter": 0.0,
+          "lipDiameter": 0.0
+        }
+      },
+      "stream": {
+        "4": {
+          "maxAbsLogitError": 4.1961669921875e-05,
+          "meanAbsLogitError": 4.960114893037826e-06,
+          "p99AbsLogitError": 2.6702880859375e-05,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 126,
+          "minWinningMargin": 0.028524398803710938,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        },
+        "8": {
+          "maxAbsLogitError": 4.1961669921875e-05,
+          "meanAbsLogitError": 4.748926585307345e-06,
+          "p99AbsLogitError": 2.6702880859375e-05,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 126,
+          "minWinningMargin": 0.028524398803710938,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        },
+        "16": {
+          "maxAbsLogitError": 4.1961669921875e-05,
+          "meanAbsLogitError": 4.765230187331326e-06,
+          "p99AbsLogitError": 2.6702880859375e-05,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 126,
+          "minWinningMargin": 0.028524398803710938,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        }
+      }
+    },
+    "random": {
+      "torchOnnx": {
+        "maxAbsLogitError": 5.340576171875e-05,
+        "meanAbsLogitError": 5.547544787987135e-06,
+        "p99AbsLogitError": 2.596139893284999e-05,
+        "toleranceFailures": 0,
+        "bucketMismatches": 0,
+        "bucketCount": 266,
+        "minWinningMargin": 0.000484466552734375,
+        "physicalMaxDifference": {
+          "voiceness": 0.0,
+          "intensity": 0.0,
+          "tongueIndex": 0.0,
+          "tongueDiameter": 0.0,
+          "constrictionIndex": 0.0,
+          "constrictionDiameter": 0.0,
+          "lipDiameter": 0.0
+        }
+      },
+      "stream": {
+        "4": {
+          "maxAbsLogitError": 0.00016021728515625,
+          "meanAbsLogitError": 1.257257281395141e-05,
+          "p99AbsLogitError": 6.103515625e-05,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 266,
+          "minWinningMargin": 0.00048065185546875,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        },
+        "8": {
+          "maxAbsLogitError": 0.000164031982421875,
+          "meanAbsLogitError": 1.230171346833231e-05,
+          "p99AbsLogitError": 6.082534673623741e-05,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 266,
+          "minWinningMargin": 0.00048065185546875,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        },
+        "16": {
+          "maxAbsLogitError": 0.000164031982421875,
+          "meanAbsLogitError": 1.2160715414211154e-05,
+          "p99AbsLogitError": 6.082534673623741e-05,
+          "toleranceFailures": 0,
+          "bucketMismatches": 0,
+          "bucketCount": 266,
+          "minWinningMargin": 0.00048065185546875,
+          "physicalMaxDifference": {
+            "voiceness": 0.0,
+            "intensity": 0.0,
+            "tongueIndex": 0.0,
+            "tongueDiameter": 0.0,
+            "constrictionIndex": 0.0,
+            "constrictionDiameter": 0.0,
+            "lipDiameter": 0.0
+          }
+        }
+      }
+    }
+  },
+  "receptiveField": {
+    "samples": 5376,
+    "history": 5120,
+    "hop": 512
+  },
+  "environment": {
+    "torch": "2.8.0",
+    "onnxruntime": "1.31.0"
+  },
+  "fixtureFrames": 120
+}

@@ -1,0 +1,1290 @@
+{
+  "date": "2026-10-25T15:56:07.704Z",
+  "browser": "155.0.8059.86",
+  "subpath": "http://127.0.0.1:55981/samuel-live/",
+  "initial": {
+    "liveMessages": 0,
+    "backend": {
+      "requested": "webgpu",
+      "actual": "webgpu",
+      "adapter": "apple metal-3"
+    },
+    "loadMs": 547.4000000953674,
+    "displayLatencyP95": 0,
+    "drawAgeP95": 0,
+    "drawAgeMax": 0,
+    "displayCount": 0,
+    "drawCount": 0,
+    "state": "ready",
+    "captureTracks": []
+  },
+  "numerical": {
+    "backend": {
+      "requested": "webgpu",
+      "actual": "webgpu",
+      "adapter": "apple metal-3"
+    },
+    "maxAbsLogitError": 0.00022125244140625,
+    "meanAbsLogitError": 0.000018607638273621165,
+    "bucketMismatches": 0,
+    "bucketCount": 1239,
+    "minMargin": 0.000484466552734375,
+    "streamingMaxAbsLogitError": 0,
+    "streamingBucketMismatches": 0,
+    "fixtureFrames": 177,
+    "durationMs": 616.5,
+    "toleranceFailures": 1,
+    "acceptedToleranceFailures": 0,
+    "tolerance": {
+      "atol": 0.00015,
+      "rtol": 0.0001
+    },
+    "passed": true,
+    "cases": {
+      "speech": {
+        "torchBrowser": {
+          "acceptedToleranceFailures": 0,
+          "outliers": [
+            {
+              "index": 5070,
+              "reference": -0.01707278937101364,
+              "actual": -0.017193935811519623,
+              "error": 0.00012114644050598145
+            }
+          ],
+          "p99AbsLogitError": 0.0001068115234375,
+          "maxAbsLogitError": 0.00022125244140625,
+          "meanAbsLogitError": 0.000021823559204460167,
+          "bucketMismatches": 0,
+          "toleranceFailures": 1,
+          "minMargin": 0.000545501708984375,
+          "physicalMaxDifference": {
+            "voiceness": 0,
+            "intensity": 0,
+            "tongueIndex": 0,
+            "tongueDiameter": 0,
+            "constrictionIndex": 0,
+            "constrictionDiameter": 0,
+            "lipDiameter": 0
+          }
+        },
+        "stream": {
+          "4": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00054931640625,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "8": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00054931640625,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "16": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00054931640625,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          }
+        }
+      },
+      "short": {
+        "torchBrowser": {
+          "acceptedToleranceFailures": 0,
+          "outliers": [],
+          "p99AbsLogitError": 0.000019431114196777344,
+          "maxAbsLogitError": 0.00002193450927734375,
+          "meanAbsLogitError": 0.000004920908915145057,
+          "bucketMismatches": 0,
+          "toleranceFailures": 0,
+          "minMargin": 0.029697418212890625,
+          "physicalMaxDifference": {
+            "voiceness": 0,
+            "intensity": 0,
+            "tongueIndex": 0,
+            "tongueDiameter": 0,
+            "constrictionIndex": 0,
+            "constrictionDiameter": 0,
+            "lipDiameter": 0
+          }
+        },
+        "stream": {
+          "4": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.02970123291015625,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "8": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.02970123291015625,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "16": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.02970123291015625,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          }
+        }
+      },
+      "silence": {
+        "torchBrowser": {
+          "acceptedToleranceFailures": 0,
+          "outliers": [],
+          "p99AbsLogitError": 0.000087738037109375,
+          "maxAbsLogitError": 0.00012683868408203125,
+          "meanAbsLogitError": 0.000011872579177309359,
+          "bucketMismatches": 0,
+          "toleranceFailures": 0,
+          "minMargin": 0.028516769409179688,
+          "physicalMaxDifference": {
+            "voiceness": 0,
+            "intensity": 0,
+            "tongueIndex": 0,
+            "tongueDiameter": 0,
+            "constrictionIndex": 0,
+            "constrictionDiameter": 0,
+            "lipDiameter": 0
+          }
+        },
+        "stream": {
+          "4": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.028522491455078125,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "8": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.028522491455078125,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "16": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.028522491455078125,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          }
+        }
+      },
+      "random": {
+        "torchBrowser": {
+          "acceptedToleranceFailures": 0,
+          "outliers": [],
+          "p99AbsLogitError": 0.00006008148193359375,
+          "maxAbsLogitError": 0.000148773193359375,
+          "meanAbsLogitError": 0.000012002566731289813,
+          "bucketMismatches": 0,
+          "toleranceFailures": 0,
+          "minMargin": 0.000484466552734375,
+          "physicalMaxDifference": {
+            "voiceness": 0,
+            "intensity": 0,
+            "tongueIndex": 0,
+            "tongueDiameter": 0,
+            "constrictionIndex": 0,
+            "constrictionDiameter": 0,
+            "lipDiameter": 0
+          }
+        },
+        "stream": {
+          "4": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00048065185546875,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "8": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00048065185546875,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "16": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0,
+            "maxAbsLogitError": 0,
+            "meanAbsLogitError": 0,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.00048065185546875,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "live": {
+    "liveMessages": 1292,
+    "backend": {
+      "requested": "webgpu",
+      "actual": "webgpu",
+      "adapter": "apple metal-3"
+    },
+    "loadMs": 547.4000000953674,
+    "selfTest": {
+      "backend": {
+        "requested": "webgpu",
+        "actual": "webgpu",
+        "adapter": "apple metal-3"
+      },
+      "maxAbsLogitError": 0.00022125244140625,
+      "meanAbsLogitError": 0.000018607638273621165,
+      "bucketMismatches": 0,
+      "bucketCount": 1239,
+      "minMargin": 0.000484466552734375,
+      "streamingMaxAbsLogitError": 0,
+      "streamingBucketMismatches": 0,
+      "fixtureFrames": 177,
+      "durationMs": 616.5,
+      "toleranceFailures": 1,
+      "acceptedToleranceFailures": 0,
+      "tolerance": {
+        "atol": 0.00015,
+        "rtol": 0.0001
+      },
+      "passed": true,
+      "cases": {
+        "speech": {
+          "torchBrowser": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [
+              {
+                "index": 5070,
+                "reference": -0.01707278937101364,
+                "actual": -0.017193935811519623,
+                "error": 0.00012114644050598145
+              }
+            ],
+            "p99AbsLogitError": 0.0001068115234375,
+            "maxAbsLogitError": 0.00022125244140625,
+            "meanAbsLogitError": 0.000021823559204460167,
+            "bucketMismatches": 0,
+            "toleranceFailures": 1,
+            "minMargin": 0.000545501708984375,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "stream": {
+            "4": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00054931640625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "8": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00054931640625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "16": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00054931640625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            }
+          }
+        },
+        "short": {
+          "torchBrowser": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.000019431114196777344,
+            "maxAbsLogitError": 0.00002193450927734375,
+            "meanAbsLogitError": 0.000004920908915145057,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.029697418212890625,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "stream": {
+            "4": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.02970123291015625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "8": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.02970123291015625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "16": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.02970123291015625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            }
+          }
+        },
+        "silence": {
+          "torchBrowser": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.000087738037109375,
+            "maxAbsLogitError": 0.00012683868408203125,
+            "meanAbsLogitError": 0.000011872579177309359,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.028516769409179688,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "stream": {
+            "4": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.028522491455078125,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "8": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.028522491455078125,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "16": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.028522491455078125,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            }
+          }
+        },
+        "random": {
+          "torchBrowser": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.00006008148193359375,
+            "maxAbsLogitError": 0.000148773193359375,
+            "meanAbsLogitError": 0.000012002566731289813,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.000484466552734375,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "stream": {
+            "4": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00048065185546875,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "8": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00048065185546875,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "16": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00048065185546875,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "stopReason": "已达到 60 秒录制上限，正在处理尾部",
+    "lastFrame": 5168,
+    "stats": {
+      "p50": 9.200000047683716,
+      "p95": 13.400000095367432,
+      "rtf": 0.2837832839798486,
+      "backlogMs": 0,
+      "displayLatencyP95": 0,
+      "sampleCount": 1292,
+      "preprocessingMs": 1062.099996805191,
+      "processingMs": 15965.000001907349,
+      "maxBacklogMs": 67.68707482993197
+    },
+    "captureSamples": 2880000,
+    "displayLatencyP95": 46.656005859375,
+    "drawAgeP95": 0,
+    "drawAgeMax": 0,
+    "displayCount": 1292,
+    "drawCount": 0,
+    "state": "playable",
+    "captureTracks": []
+  },
+  "recording": {
+    "frames": 5168,
+    "samples": 2646000,
+    "sourceSamples": 2880000,
+    "sourceRate": 48000,
+    "duration": 60,
+    "config": {
+      "targetRms": 0.05,
+      "rmsMode": "causal-exponential-20ms",
+      "rmsGate": 0.0035,
+      "gainRange": [
+        0.25,
+        20
+      ],
+      "gainSmoothing": 0.0015,
+      "pitch": "causal-yin-forward-filter",
+      "pitchWindow": 2048,
+      "pitchHold": "last-voiced-or-285Hz",
+      "chunkFrames": 4,
+      "historySamples": 5120,
+      "resampler": "24tap-windowed-sinc",
+      "contextTimeOrigin": 1.3439999999999999,
+      "captureEpochOrigin": 1792943769373.4333,
+      "stopReason": "limit-or-backpressure",
+      "stats": {
+        "p50": 9.200000047683716,
+        "p95": 13.400000095367432,
+        "rtf": 0.2837832839798486,
+        "backlogMs": 0,
+        "displayLatencyP95": 0,
+        "sampleCount": 1292,
+        "preprocessingMs": 1062.099996805191,
+        "processingMs": 15965.000001907349,
+        "maxBacklogMs": 67.68707482993197
+      }
+    }
+  },
+  "audio": {
+    "seconds": 31.029333333333334,
+    "rms": 0.04836451613607232,
+    "peak": 0.42551010847091675,
+    "nonfinite": 0
+  },
+  "playback": {
+    "liveMessages": 1292,
+    "backend": {
+      "requested": "webgpu",
+      "actual": "webgpu",
+      "adapter": "apple metal-3"
+    },
+    "loadMs": 547.4000000953674,
+    "selfTest": {
+      "backend": {
+        "requested": "webgpu",
+        "actual": "webgpu",
+        "adapter": "apple metal-3"
+      },
+      "maxAbsLogitError": 0.00022125244140625,
+      "meanAbsLogitError": 0.000018607638273621165,
+      "bucketMismatches": 0,
+      "bucketCount": 1239,
+      "minMargin": 0.000484466552734375,
+      "streamingMaxAbsLogitError": 0,
+      "streamingBucketMismatches": 0,
+      "fixtureFrames": 177,
+      "durationMs": 616.5,
+      "toleranceFailures": 1,
+      "acceptedToleranceFailures": 0,
+      "tolerance": {
+        "atol": 0.00015,
+        "rtol": 0.0001
+      },
+      "passed": true,
+      "cases": {
+        "speech": {
+          "torchBrowser": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [
+              {
+                "index": 5070,
+                "reference": -0.01707278937101364,
+                "actual": -0.017193935811519623,
+                "error": 0.00012114644050598145
+              }
+            ],
+            "p99AbsLogitError": 0.0001068115234375,
+            "maxAbsLogitError": 0.00022125244140625,
+            "meanAbsLogitError": 0.000021823559204460167,
+            "bucketMismatches": 0,
+            "toleranceFailures": 1,
+            "minMargin": 0.000545501708984375,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "stream": {
+            "4": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00054931640625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "8": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00054931640625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "16": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00054931640625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            }
+          }
+        },
+        "short": {
+          "torchBrowser": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.000019431114196777344,
+            "maxAbsLogitError": 0.00002193450927734375,
+            "meanAbsLogitError": 0.000004920908915145057,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.029697418212890625,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "stream": {
+            "4": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.02970123291015625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "8": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.02970123291015625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "16": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.02970123291015625,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            }
+          }
+        },
+        "silence": {
+          "torchBrowser": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.000087738037109375,
+            "maxAbsLogitError": 0.00012683868408203125,
+            "meanAbsLogitError": 0.000011872579177309359,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.028516769409179688,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "stream": {
+            "4": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.028522491455078125,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "8": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.028522491455078125,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "16": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.028522491455078125,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            }
+          }
+        },
+        "random": {
+          "torchBrowser": {
+            "acceptedToleranceFailures": 0,
+            "outliers": [],
+            "p99AbsLogitError": 0.00006008148193359375,
+            "maxAbsLogitError": 0.000148773193359375,
+            "meanAbsLogitError": 0.000012002566731289813,
+            "bucketMismatches": 0,
+            "toleranceFailures": 0,
+            "minMargin": 0.000484466552734375,
+            "physicalMaxDifference": {
+              "voiceness": 0,
+              "intensity": 0,
+              "tongueIndex": 0,
+              "tongueDiameter": 0,
+              "constrictionIndex": 0,
+              "constrictionDiameter": 0,
+              "lipDiameter": 0
+            }
+          },
+          "stream": {
+            "4": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00048065185546875,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "8": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00048065185546875,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            },
+            "16": {
+              "acceptedToleranceFailures": 0,
+              "outliers": [],
+              "p99AbsLogitError": 0,
+              "maxAbsLogitError": 0,
+              "meanAbsLogitError": 0,
+              "bucketMismatches": 0,
+              "toleranceFailures": 0,
+              "minMargin": 0.00048065185546875,
+              "physicalMaxDifference": {
+                "voiceness": 0,
+                "intensity": 0,
+                "tongueIndex": 0,
+                "tongueDiameter": 0,
+                "constrictionIndex": 0,
+                "constrictionDiameter": 0,
+                "lipDiameter": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "stopReason": "已达到 60 秒录制上限，正在处理尾部",
+    "lastFrame": 5168,
+    "stats": {
+      "p50": 9.200000047683716,
+      "p95": 13.400000095367432,
+      "rtf": 0.2837832839798486,
+      "backlogMs": 0,
+      "displayLatencyP95": 0,
+      "sampleCount": 1292,
+      "preprocessingMs": 1062.099996805191,
+      "processingMs": 15965.000001907349,
+      "maxBacklogMs": 67.68707482993197
+    },
+    "captureSamples": 2880000,
+    "displayLatencyP95": 46.656005859375,
+    "drawAgeP95": 2.6666666666699257,
+    "drawAgeMax": 7.999999999995566,
+    "displayCount": 1292,
+    "drawCount": 1995,
+    "state": "playing",
+    "captureTracks": [],
+    "position": 30.912
+  },
+  "transport": "pause/resume/seek/mode/restart passed",
+  "rerecord": {
+    "frames": 105,
+    "samples": 53626,
+    "duration": 1.216
+  },
+  "errors": [],
+  "requests": [
+    {
+      "url": "/samuel-live/",
+      "status": 200,
+      "mime": "text/html"
+    },
+    {
+      "url": "/samuel-live/assets/index-B4Nbd7jj.js",
+      "status": 200,
+      "mime": "application/javascript"
+    },
+    {
+      "url": "/samuel-live/assets/index-B6-d4AYB.css",
+      "status": 200,
+      "mime": "text/css"
+    },
+    {
+      "url": "/samuel-live/pink-trombone/pink-trombone.min.js",
+      "status": 200,
+      "mime": "application/javascript"
+    },
+    {
+      "url": "/samuel-live/assets/inference.worker-Cf6bvZsY.js",
+      "status": 200,
+      "mime": "application/javascript"
+    },
+    {
+      "url": "/samuel-live/models/samuel-manifest.json",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "url": "/samuel-live/models/samuel-controller-fp32.onnx",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/ort/ort-wasm-simd-threaded.asyncify.mjs",
+      "status": 200,
+      "mime": "application/javascript"
+    },
+    {
+      "url": "/samuel-live/ort/ort-wasm-simd-threaded.asyncify.wasm",
+      "status": 200,
+      "mime": "application/wasm"
+    },
+    {
+      "url": "/samuel-live/fixtures/cases.json",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "url": "/samuel-live/fixtures/speech.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/speech.logits.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/short.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/short.logits.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/silence.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/silence.logits.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/random.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/random.logits.f32",
+      "status": 200,
+      "mime": "application/octet-stream"
+    },
+    {
+      "url": "/samuel-live/fixtures/samuel-sample-48k.wav",
+      "status": 200,
+      "mime": "audio/wav"
+    },
+    {
+      "url": "/samuel-live/fixtures/samuel-sample-48k.wav",
+      "status": 200,
+      "mime": "audio/wav"
+    }
+  ]
+}

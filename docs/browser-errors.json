@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-25T15:20:00.412Z",
+  "browser": "155.0.8059.86",
+  "subpath": "http://127.0.0.1:52879/samuel-live/",
+  "backpressure": {
+    "liveMessages": 54,
+    "backend": {
+      "requested": "webgpu",
+      "actual": "webgpu",
+      "adapter": "apple metal-3"
+    },
+    "loadMs": 588.5,
+    "stopReason": "处理落后超过 2 秒：停止采集并保留所有已采集样本，处理完后回放",
+    "lastFrame": 214,
+    "captureSamples": 118784,
+    "stats": {
+      "p50": 13.5,
+      "p95": 16.399999856948853,
+      "rtf": 4.842113025643358,
+      "backlogMs": 0,
+      "displayLatencyP95": 0,
+      "sampleCount": 54,
+      "preprocessingMs": 55.99999928474426,
+      "processingMs": 11974.400000572205,
+      "maxBacklogMs": 2010.0226757369612
+    },
+    "displayLatencyP95": 9201.59130859375,
+    "drawAgeP95": 0,
+    "drawAgeMax": 0,
+    "displayCount": 54,
+    "drawCount": 0,
+    "state": "playable",
+    "captureTracks": [],
+    "frames": 214,
+    "samples": 109133,
+    "sourceSamples": 118784,
+    "sourceRate": 48000,
+    "duration": 2.474666666666667
+  },
+  "rate44100": {
+    "sourceRate": 44100,
+    "samples": 71168,
+    "sourceSamples": 71168,
+    "frames": 139,
+    "duration": 1.6137868480725623
+  },
+  "denied": "simulated permission denial",
+  "deviceLost": "GPU device lost: Device was destroyed.。请重新加载模型；已保存的录制仍可回放。",
+  "playbackAfterDeviceLoss": "passed",
+  "downloadFailure": "下载失败 (503): http://127.0.0.1:52879/samuel-live/models/samuel-controller-fp32.onnx",
+  "retry": "passed",
+  "noGpu": {
+    "liveMessages": 0,
+    "backend": {
+      "requested": "webgpu",
+      "actual": "wasm",
+      "fallbackReason": "浏览器未提供 navigator.gpu"
+    },
+    "loadMs": 294.5,
+    "displayLatencyP95": 0,
+    "drawAgeP95": 0,
+    "drawAgeMax": 0,
+    "displayCount": 0,
+    "drawCount": 0,
+    "state": "ready",
+    "captureTracks": []
+  },
+  "errors": [
+    "503 http://127.0.0.1:52879/samuel-live/models/samuel-controller-fp32.onnx"
+  ]
+}

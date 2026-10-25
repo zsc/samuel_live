@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4ede5" />
+    <meta
+      name="description"
+      content="真实 Samuel 模型在浏览器中持续分析麦克风，实时驱动 Pink Trombone 声道与同步回放。"
+    />
+    <title>Samuel Live · 麦克风声道</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">SAMUEL LIVE / LOCAL INFERENCE</p>
+          <h1>把声音变成声道</h1>
+          <p class="lede">
+            麦克风 → Samuel → 声道 · 保存轨迹，同步合成回放 · 全程本机处理
+          </p>
+        </div>
+        <div class="model-state" aria-live="polite">
+          <span class="status-dot" id="status-dot"></span>
+          <div>
+            <strong id="status-title">正在加载模型</strong>
+            <span id="status-detail">准备静态资源与推理后端…</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="dashboard">
+      <section class="stage-card" aria-label="Pink Trombone 声道视图">
+        <div class="stage-topline">
+          <span>实时声道</span>
+          <span class="backend-badge" id="backend-badge">后端探测中</span>
+        </div>
+        <div class="tract-host" id="tract-host">
+          <div class="tract-scaler" id="tract-scaler">
+            <pink-trombone
+              id="pink-trombone"
+              UI
+              inactive
+              interactive="false"
+            ></pink-trombone>
+          </div>
+        </div>
+        <div class="stage-footer">
+          <div class="level-block">
+            <span>输入电平</span>
+            <div class="level-track"><i id="level-fill"></i></div>
+          </div>
+          <div class="clock"><span id="clock-time">0.0</span> 秒</div>
+        </div>
+      </section>
+
+      <div class="sidebar">
+      <section class="control-card">
+        <div class="primary-actions">
+          <button id="record-button" class="button primary" disabled>开始录制</button>
+          <button id="retry-button" class="button quiet">重新加载</button>
+          <button id="stop-button" class="button" disabled>停止</button>
+          <button id="play-button" class="button accent" disabled>回放 Samuel</button>
+          <button id="pause-button" class="button" disabled>暂停</button>
+          <button id="restart-button" class="button quiet" disabled>从头播放</button>
+          <label class="mode-toggle">
+            <input type="checkbox" id="original-toggle" />
+            <span>原声对照</span>
+          </label>
+        </div>
+        <div class="timeline-row">
+          <input
+            id="progress"
+            class="progress"
+            type="range"
+            min="0"
+            max="1000"
+            value="0"
+            step="1"
+            aria-label="回放进度"
+          />
+          <span class="timecode" id="timecode">0:00.0 / 0:00.0</span>
+        </div>
+        <p class="notice" id="notice">
+          点击开始录制后才会请求麦克风。音频只在当前页面内存中处理，不上传。
+        </p>
+      </section>
+
+      <section class="lower-grid">
+        <article class="panel overview">
+          <h2>录制概览</h2>
+          <dl class="facts">
+            <div><dt>控制帧</dt><dd id="fact-frames">—</dd></div>
+            <div><dt>有效音频</dt><dd id="fact-samples">—</dd></div>
+            <div><dt>音频时长</dt><dd id="fact-duration">—</dd></div>
+            <div><dt>队列积压</dt><dd id="fact-backlog">0 ms</dd></div>
+          </dl>
+          <p class="panel-note" id="fixture-note">
+            没有麦克风？用官方语音测试同一实时推理链路。
+          </p>
+          <button id="fixture-button" class="button quiet small" disabled>
+            实时注入语音（60 秒，非麦克风）
+          </button>
+        </article>
+
+        <details class="panel metrics" id="metrics-panel">
+          <summary><span>技术指标</span><span>展开</span></summary>
+          <dl class="facts">
+            <div><dt>实际推理后端</dt><dd id="metric-backend">—</dd></div>
+            <div><dt>输入 / 模型采样率</dt><dd id="metric-rates">—</dd></div>
+            <div><dt>控制帧率</dt><dd id="metric-frame-rate">86.1328 Hz</dd></div>
+            <div><dt>推理 p50 / p95</dt><dd id="metric-latency">—</dd></div>
+            <div><dt>RTF</dt><dd id="metric-rtf">—</dd></div>
+            <div><dt>姿态显示延迟 p95</dt><dd id="metric-display">—</dd></div>
+            <div><dt>流式窗口</dt><dd id="metric-window">5120 + 2048 样本</dd></div>
+            <div><dt>模型 revision</dt><dd id="metric-revision">—</dd></div>
+            <div><dt>checkpoint SHA-256</dt><dd id="metric-checkpoint">—</dd></div>
+            <div><dt>ONNX SHA-256</dt><dd id="metric-onnx">—</dd></div>
+          </dl>
+          <button id="selftest-button" class="button quiet small" disabled>
+            数值自检（真实 fixture）
+          </button>
+          <pre id="selftest-output" hidden></pre>
+        </details>
+      </section>
+
+      </div>
+      </div>
+
+      <footer>
+        <span>模型：vvolhejn/samuel · <span id="footer-revision">—</span></span>
+        <span>Pink Trombone 几何与合成 · GPL-3.0</span>
+      </footer>
+    </main>
+    <script type="module" src="./src/app.ts"></script>
+  </body>
+</html>

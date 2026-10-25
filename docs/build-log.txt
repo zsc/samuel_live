@@ -1,0 +1,40 @@
+
+> samuel-live-webgpu@1.0.0 prebuild /Users/zsc/Downloads/samuel_live
+> pnpm run verify:assets && pnpm run assets
+
+
+> samuel-live-webgpu@1.0.0 verify:assets /Users/zsc/Downloads/samuel_live
+> node scripts/verify-assets.mjs
+
+Verified pinned model cfd4ba3b0ea411d40f404d226022bc70f9e06139, 4 reference cases
+
+> samuel-live-webgpu@1.0.0 assets /Users/zsc/Downloads/samuel_live
+> node scripts/prepare-assets.mjs
+
+
+> pink-trombone@1.0.0 build /Users/zsc/Downloads/samuel_live/vendor/Pink-Trombone
+> rollup -c rollup.config.js
+
+
+script/component.js → pink-trombone.min.js...
+created pink-trombone.min.js in 49ms
+
+script/audio/nodes/pinkTrombone/processors/WorkletProcessor.js → pink-trombone-worklet-processor.min.js...
+created pink-trombone-worklet-processor.min.js in 12ms
+Prepared Pink Trombone and ONNX Runtime static assets.
+
+> samuel-live-webgpu@1.0.0 build /Users/zsc/Downloads/samuel_live
+> tsc --noEmit && vite build
+
+vite v7.1.7 building for production...
+transforming...
+✓ 7 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/assets/capture.worklet-CE--qYQN.js                         1.25 kB
+dist/index.html                                                 5.73 kB │ gzip:     2.15 kB
+dist/assets/inference.worker-Cf6bvZsY.js                      132.98 kB
+dist/assets/ort-wasm-simd-threaded.asyncify-Dwe79aOi.wasm  25,372.57 kB │ gzip: 6,085.48 kB
+dist/assets/index-CUrmqPyw.css                                  7.21 kB │ gzip:     2.48 kB
+dist/assets/index-CqUQXwEf.js                                  20.01 kB │ gzip:     7.72 kB │ map: 54.33 kB
+✓ built in 528ms

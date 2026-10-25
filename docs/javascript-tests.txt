@@ -1,0 +1,14 @@
+
+> samuel-live-webgpu@1.0.0 test /Users/zsc/Downloads/samuel_live
+> vitest run
+
+
+ RUN  v3.2.4 /Users/zsc/Downloads/samuel_live
+
+ ✓ tests/audio.test.ts (5 tests) 279ms
+
+ Test Files  1 passed (1)
+      Tests  5 passed (5)
+   Start at  23:30:03
+   Duration  463ms (transform 19ms, setup 0ms, collect 20ms, tests 279ms, environment 0ms, prepare 27ms)
+

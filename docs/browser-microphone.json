@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-25T15:46:46.286Z",
+  "browser": "155.0.8059.86",
+  "subpath": "http://127.0.0.1:55214/samuel-live/",
+  "fakeMicrophone": {
+    "liveMessages": 76,
+    "backend": {
+      "requested": "webgpu",
+      "actual": "webgpu",
+      "adapter": "apple metal-3"
+    },
+    "loadMs": 597.9000000953674,
+    "stopReason": null,
+    "lastFrame": 303,
+    "stats": {
+      "p50": 9.900000095367432,
+      "p95": 13.200000047683716,
+      "rtf": 0.30572884389439065,
+      "backlogMs": 0,
+      "displayLatencyP95": 0,
+      "sampleCount": 76,
+      "preprocessingMs": 63.099998235702515,
+      "processingMs": 1012.4000000953674,
+      "maxBacklogMs": 102.65306122448979
+    },
+    "captureSamples": 168704,
+    "displayLatencyP95": 60.679931640625,
+    "drawAgeP95": 0,
+    "drawAgeMax": 0,
+    "displayCount": 74,
+    "drawCount": 0,
+    "state": "playable",
+    "captureTracks": [],
+    "sourceKind": "microphone",
+    "samples": 154997,
+    "frames": 303,
+    "sourceSamples": 168704,
+    "sourceRate": 48000,
+    "duration": 3.514666666666667
+  },
+  "revoked": "capture ended and existing samples finalized",
+  "rapidControls": {
+    "liveMessages": 11,
+    "backend": {
+      "requested": "webgpu",
+      "actual": "webgpu",
+      "adapter": "apple metal-3"
+    },
+    "loadMs": 597.9000000953674,
+    "stopReason": null,
+    "lastFrame": 41,
+    "stats": {
+      "p50": 8.799999952316284,
+      "p95": 13.799999952316284,
+      "rtf": 0.28402820131968615,
+      "backlogMs": 0,
+      "displayLatencyP95": 0,
+      "sampleCount": 11,
+      "preprocessingMs": 8.199999809265137,
+      "processingMs": 127.00000023841858,
+      "maxBacklogMs": 66.23582766439908
+    },
+    "captureSamples": 22784,
+    "displayLatencyP95": 51.59375,
+    "drawAgeP95": 2.666666666666373,
+    "drawAgeMax": 2.666666666667261,
+    "displayCount": 10,
+    "drawCount": 33,
+    "state": "playing",
+    "captureTracks": []
+  },
+  "layout": "390px viewport no horizontal overflow; desktop Chrome, not mobile hardware",
+  "errors": []
+}
